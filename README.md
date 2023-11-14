@@ -1,6 +1,4 @@
-# lottery-version2
-
-
+# Kids Plaza Test 2023
 
 ## Getting started
 
