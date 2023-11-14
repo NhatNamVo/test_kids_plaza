@@ -1,0 +1,46 @@
+.autocomplete {
+    position: relative;
+
+
+    .result {
+        top: 100%;
+        width: 100%;
+        z-index: 100;
+        margin-top: 4px;
+        overflow-y: auto;
+        overflow-x: hidden;
+        position: absolute;
+        background-color: $white;
+        box-shadow: 0 2px 8px 0 $light-gray;
+
+        border-radius: 6px;
+
+        .result_menu {
+            padding: 0;
+            margin-bottom: 0;
+
+            .result_menu_item {
+                cursor: pointer;
+                text-align: left;
+                padding: 6px 12px;
+
+                a {
+                    color: $black;
+                }
+
+                &:hover {
+                    background-color: $supper-extra-light-pink;
+                }
+            }
+
+            .result_more {
+                text-align: center;
+                padding: 6px 12px;
+                
+                a {
+                    color: $less-light-blue;
+                }
+            }
+        }
+    }
+}

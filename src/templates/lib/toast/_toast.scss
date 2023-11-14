@@ -1,0 +1,35 @@
+.Toastify {
+  .Toastify__toast {
+    padding: 0;
+    border-radius: 12px;
+  }
+
+  .Toastify__toast-body {
+    margin: 0;
+    padding: 0;
+    align-items: stretch;
+  }
+
+  .Toastify__close-button {
+    display: none;
+  }
+}
+
+.notice-system {
+  &.Toastify__toast-theme--light {
+    background: unset;
+  }
+
+  &.Toastify__toast {
+    box-shadow: unset;
+
+    left: 0;
+    right: 0;
+    bottom: 35px;
+    position: absolute;
+
+    @include minResponsive(medium) {
+      background-color: transparent !important;
+    }
+  }
+}

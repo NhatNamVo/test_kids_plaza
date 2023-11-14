@@ -1,0 +1,53 @@
+.loadingScreen {
+  width: 100%;
+  height: 100vh;
+
+  display: flex;
+  row-gap: 2px;
+  overflow: hidden;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+
+  .loadingIcon {
+    margin-top: 140px;
+    opacity: 1;
+
+    animation: show 0.5s linear 0s 1;
+
+    @keyframes show {
+      0% {
+        opacity: 0;
+      }
+
+      100% {
+        opacity: 1;
+      }
+    }
+
+    svg {
+      width: 40px;
+      height: 40px;
+      animation: loading 2s linear 0.2s infinite;
+
+      @keyframes loading {
+        0% {
+          transform: rotate(0deg);
+        }
+
+        100% {
+          transform: rotate(360deg);
+        }
+      }
+    }
+  }
+
+  .branch {
+    color: #8c8d9c;
+    text-align: center;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 18px; /* 128.571% */
+  }
+}

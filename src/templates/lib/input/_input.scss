@@ -1,0 +1,147 @@
+.password-system {
+  .ant-input-password-icon {
+    display: none;
+  }
+
+  svg {
+    width: 20px;
+    display: block;
+  }
+}
+
+.number-input-system {
+  position: relative;
+  height: fit-content;
+
+  .ant-input-number {
+    width: 100%;
+  }
+
+  .number-input-system__suffix {
+    top: 50%;
+    right: 10px;
+    position: absolute;
+    transform: translateY(-50%);
+  }
+
+  .ant-input-number-handler-wrap {
+    display: none;
+  }
+}
+
+.radio-system {
+  align-items: center;
+
+  .ant-radio {
+    .ant-radio-inner {
+      width: 24px;
+      height: 24px;
+      border-color: $sky-blue;
+
+      &::after {
+        transform-origin: center;
+        background-color: $sky-blue;
+      }
+    }
+
+    &:hover {
+      .ant-radio-inner {
+        border-color: $sky-blue;
+      }
+    }
+
+    &.ant-radio-checked {
+      .ant-radio-inner {
+        &::after {
+          transform: scale(0.8);
+        }
+      }
+    }
+  }
+}
+
+.radio-group-system {
+  .ant-radio-wrapper {
+    .ant-radio {
+      .ant-radio-inner {
+        width: 24px;
+        height: 24px;
+        border-color: $sky-blue;
+
+        &::after {
+          transform-origin: center;
+          background-color: $sky-blue;
+        }
+      }
+
+      &:hover {
+        .ant-radio-inner {
+          border-color: $sky-blue;
+        }
+      }
+
+      &.ant-radio-checked {
+        .ant-radio-inner {
+          &::after {
+            transform: scale(0.8);
+          }
+        }
+      }
+    }
+
+    span {
+      &:nth-of-type(2) {
+        opacity: 0.85;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 20px;
+        color: $blue-black;
+
+        display: block;
+      }
+    }
+  }
+}
+
+.lottery-input-number {
+  width: 100% !important;
+  border-radius: 8px;
+
+  .ant-input-number-input {
+    height: 44px;
+    padding: 0px 16px;
+    color: #000;
+
+    @include maxResponsive("small-down") {
+      height: 36px;
+    }
+
+    &::placeholder {
+      color: #93969b;
+    }
+  }
+
+  .ant-input-number-handler-wrap {
+    display: none;
+  }
+
+  &.centered {
+    .ant-input-number-input {
+      text-align: center;
+    }
+  }
+}
+
+.input-number-invest {
+  &.ant-input-number {
+    border: none;
+    width: 120px;
+  }
+}
+
+.customRangeDate {
+  .ant-picker-range {
+    width: 100%;
+  }
+}

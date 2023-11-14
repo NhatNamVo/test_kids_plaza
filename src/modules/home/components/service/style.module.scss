@@ -1,0 +1,40 @@
+.service {
+    width: 100%;
+    padding: 12px;
+    overflow-x: auto;
+    overflow-y: hidden;
+
+    .service_menu {
+        display: flex;
+        column-gap: 12px;
+        flex-direction: row;
+        align-items: flex-start;
+        justify-content: space-between;
+
+        .service_item {
+            display: flex;
+            row-gap: 12px;
+            align-items: center;
+            flex-direction: column;
+
+            flex: 1 0 80px;
+            max-width: 80px;
+
+            &:hover {
+                .service_title {
+                    color: $active-menu-item-text-color;
+                }
+            }
+
+            img {
+                width: 40px;
+                height: 40px;
+            }
+        }
+
+        .service_title {
+            font-size: 14px;
+            text-align: center;
+        }
+    }
+}

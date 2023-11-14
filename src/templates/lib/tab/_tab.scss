@@ -1,0 +1,43 @@
+.customTabInvest {
+  .ant-tabs-nav-list {
+    width: 100%;
+    gap: 8px;
+  }
+
+  .ant-tabs-nav-wrap {
+    overflow: auto;
+  }
+
+  .ant-tabs-tab {
+    margin: 0 !important;
+  }
+
+  .ant-tabs-ink-bar {
+    display: none;
+  }
+
+  .ant-tabs-top > .ant-tabs-nav::before {
+    border: none;
+  }
+
+  .ant-tabs-tab-btn {
+    padding: 12px 16px;
+    border-radius: 12px;
+    background: #fff1fb;
+    color: $gray-system;
+
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 16px;
+  }
+
+  .ant-tabs-tab.ant-tabs-tab-active .ant-tabs-tab-btn {
+    background: linear-gradient(90deg, $pink 0%, $light-pink 100%);
+    color: $white;
+  }
+
+  .ant-tabs-nav {
+    margin-bottom: 4px !important;
+  }
+}

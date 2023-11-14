@@ -1,0 +1,36 @@
+.mobileOptions {
+  display: flex;
+  row-gap: 24px;
+  flex-direction: column;
+
+  .bankGroup {
+    display: flex;
+    margin: 0 -16px;
+    flex-direction: column;
+  }
+
+  .bankItem {
+    cursor: pointer;
+    padding: 12px 16px;
+    transition: background-color 0.2s, color 0.2s;
+
+    &:hover {
+      color: $white;
+      background-color: $light-pink;
+    }
+
+    &.selected {
+      color: $white;
+      background-color: $active-menu-item-text-color;
+    }
+  }
+}
+
+.bankItem__logo {
+  width: 25px;
+  height: 25px !important;
+
+  img {
+    object-fit: fill;
+  }
+}

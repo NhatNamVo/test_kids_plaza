@@ -1,0 +1,48 @@
+.notification {
+    height: 100%;
+    display: flex;
+    column-gap: 8px;
+    align-items: stretch;
+    border-radius: 12px;
+
+    .notification__status {
+        padding: 16px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        &.success {
+            background-color: $green;
+        }
+
+        &.error {
+            background-color: $orange-red;
+        }
+
+        &.info {
+            background-color: $yellow;
+        }
+
+        &.warn {
+            background-color: $extra-light-red;
+        }
+
+        svg {
+            width: 24px;
+            height: 24px;
+            display: block;
+            color: $white;
+        }
+    }
+
+    .notification__message {
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+
+        font-size: 12px;
+        font-weight: 600;
+
+        color: $primary-text-color;
+    }
+}

@@ -1,0 +1,56 @@
+    [
+        {
+            "id": 1,
+            "name": "Mẹ bầu và sau sinh"
+        },
+
+        {
+            "id": 2,
+            "name": "Sữa và thực phẩm"
+        },
+
+        {
+            "id": 3,
+            "name": "Bỉm tã và vệ sinh"
+        },
+
+        {
+            "id": 4,
+            "name": "Đồ sơ sinh"
+        },
+
+        {
+            "id": 5,
+            "name": "Đồ dùng ăn uống"
+        },
+
+        {
+            "id": 6,
+            "name": "Thời trang và phụ kiện"
+        },
+
+        {
+            "id": 7,
+            "name": "Đồ chơi và học tập"
+        },
+
+        {
+            "id": 8,
+            "name": "Xe - Đai - Điệu"
+        },
+
+        {
+            "id": 9,
+            "name": "Nôi - Giường - Cũi"
+        },
+
+        {
+            "id": 10,
+            "name": "Giặt xả và Tắm gội"
+        },
+
+        {
+            "id": 11,
+            "name": "Đồ dùng gia đình"
+        }
+    ]

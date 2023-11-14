@@ -1,0 +1,120 @@
+.draw-system {
+    .ant-drawer-content-wrapper {
+        height: auto !important;
+        max-height: var(--max-height);
+    }
+
+    .ant-drawer-content {
+        max-height: var(--max-height);
+        border-radius: 16px 16px 0 0;
+    }
+
+    .ant-drawer-wrapper-body {
+        max-height: var(--max-height);
+    }
+
+    .ant-drawer-header,
+    .ant-drawer-body {
+        padding: 12px;
+
+    }
+
+    .ant-drawer-header {
+        padding: 18px 0;
+        position: relative;
+        border-bottom: none;
+
+        .ant-drawer-header-title,
+        .ant-drawer-title {
+            font-size: 16px;
+            text-align: center;
+            color: $primary-text-color;
+        }
+
+        .ant-drawer-close {
+            top: 50%;
+            right: 15px;
+            margin-right: 0;
+            position: absolute;
+            transform: translateY(-50%);
+        }
+    }
+
+    .ant-drawer-body {
+        flex: 2;
+        overflow-y: scroll;
+        overflow-x: hidden;
+    }
+}
+
+.side-bar-draw-system {
+    top: var(--top) !important;
+
+    .ant-drawer-content-wrapper {
+        width: 100% !important;
+        height: auto !important;
+        max-height: var(--height);
+    }
+
+    .ant-drawer-content {
+        max-height: var(--height);
+    }
+
+    .ant-drawer-wrapper-body {
+        max-height: var(--height);
+    }
+
+    .ant-drawer-header,
+    .ant-drawer-body {
+        padding: 12px;
+    }
+
+    .ant-drawer-header {
+        padding: 12px 12px 0;
+        position: relative;
+        border-bottom: none;
+
+        .ant-drawer-header-title,
+        .ant-drawer-title {
+            font-size: 16px;
+            text-align: center;
+            color: $primary-text-color;
+        }
+
+        .ant-drawer-close {
+            display: none;
+        }
+    }
+
+    .ant-drawer-body {
+        flex: 2;
+        overflow-y: scroll;
+        overflow-x: hidden;
+    }
+
+    .side-bar-draw-system__title-wrapper {
+        display: flex;
+        column-gap: 8px;
+        align-items: center;
+        justify-content: space-between;
+
+        .side-bar-draw-system__title {
+            flex: 2;
+            text-align: left;
+            font-size: 14px;
+            font-weight: 600;
+        }
+
+        .side-bar-draw-system__close {
+            row-gap: 8px;
+            color: $blue;
+            display: flex;
+            font-size: 14px;
+            align-items: center;
+
+            svg {
+                width: 20px;
+            }
+        }
+    }
+}

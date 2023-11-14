@@ -1,0 +1,120 @@
+.header {
+    padding-top: 12px;
+    padding-top: 12px;
+    background-color: $white;
+
+    .top {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+        .top_left {
+            .top_dropdown {
+                cursor: pointer;
+                font-weight: 600;
+                color: $less-bold-blue;
+            }
+        }
+
+        .top_right {
+            display: flex;
+            margin-bottom: 0;
+            align-items: center;
+            justify-content: flex-end;
+
+            li {
+                cursor: pointer;
+                padding: 0 12px;
+                position: relative;
+
+                &:hover {
+                    color: $less-bold-blue;
+                }
+
+                &:not(:last-child) {
+                    &::after {
+                        content: '';
+                        top: 50%;
+                        right: 0;
+                        width: 1px;
+                        height: 60%;
+                        position: absolute;
+                        background-color: $black;
+                        transform: translateY(-50%);
+                    }
+                }
+            }
+        }
+    }
+
+    .main {
+        padding: 12px 0;
+        background-color: #21409A;
+
+        .content {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+
+        .search {
+            width: 400px;
+
+            .search_input {
+                border-radius: 32px;
+
+                svg {
+                    path {
+                        color: $yellow;
+                    }
+                }
+            }
+        }
+
+        .auth {
+            display: flex;
+            column-gap: 12px;
+            align-items: center;
+            justify-content: flex-end;
+
+            .authButton_login,
+            .authButton_register {
+                border: none;
+                color: $white;
+                font-weight: 600;
+
+                &:hover {
+                    box-shadow: 0 0 8px 0 $white;
+                }
+            }
+
+            .authButton_login {
+                background-color: #00BBF2;
+
+                &:hover {
+                    box-shadow: 0 0 8px 0 #00BBF2;
+                }
+            }
+
+            .authButton_register {
+                background-color: #F4C024;
+
+                &:hover {
+                    box-shadow: 0 0 8px 0 #F4C024;
+                }
+            }
+
+            .auth_item {
+                display: flex;
+                align-items: center;
+                flex-direction: column;
+                justify-content: space-between;
+
+                color: $white;
+                font-size: 12px;
+                font-weight: 400;
+            }
+        }
+    }
+}

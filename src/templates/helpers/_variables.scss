@@ -1,0 +1,98 @@
+$header-height: 56px;
+
+// color //
+$pink: #f43bc1;
+$dark-pink: #b61d66;
+$light-pink: #ff72d9;
+$white-pink: #feeef6;
+$less-dark-pink: #d72f80;
+$less-light-pink: #f87fb9;
+$extra-light-pink: #fcd4e7;
+$little-light-pink: #ffd8eb;
+$supper-extra-light-pink: #fee7f2;
+$pink-light: #fff1fb;
+
+$blue: #2d7af6;
+$sky-blue: #33afe4;
+$bold-blue: #2d7ef6;
+$dark-blue: #1e2226;
+$light-blue: #eff6ff;
+$less-bold-blue: #5296fa;
+$less-light-blue: #a5d8f8;
+$supper-light-blue: #e5f2fa;
+
+$black: #000;
+$grey-black: #212121;
+$blue-black-opacity-2: #3f404d11;
+$blue-black-opacity-4: #3f404d42;
+$blue-black: #3f404d;
+
+$white: #fff;
+$red-color: #e7e7e7;
+$blue-white: #f0faff;
+$white-gray: #f1f1f1;
+
+$gray: #757575;
+$dart-grey: #827d7d;
+$gray-system: #939aa3;
+$grey: #535050;
+$green-grey: #666666;
+$white-grey: #f5f5f5;
+$dark-gray: #616161;
+$light-gray: #e5e5e5;
+$supper-light-gray: #F0EFEF;
+$gray-border: #e9e9e9;
+
+$green: #34c85a;
+$white-green: #53AE94;
+$light-green: #15bd81;
+$yellow-green: #baeb4a;
+$yellow: #f9ca0d;
+
+$red: #e70d0d;
+$orange-red: #ff3830;
+$extra-light-red: #ffdfdf;
+
+// box-shadown
+$box-shadown-color: rgba(0, 0, 0, 0.05);
+
+// text color
+$error-text-color: $red;
+$menu-item-text-color: $grey;
+$primary-text-color: $dark-blue;
+$active-menu-item-text-color: $sky-blue;
+$active-menu-item-text-color-nav: $blue;
+
+$win-number-color: $light-green;
+$lose-number-color: $red;
+
+// border color
+$border-form-color: $light-gray;
+$border-form-active-color: $pink;
+
+// table color
+$head-table-color-text: $blue-black;
+$head-table-color: $blue-black-opacity-2;
+
+// form color
+$input-suffix-input-color: $green-grey;
+
+//break points
+$breakpoints: (
+  // min width
+  "large": 992px,
+  "small": 576px,
+  "medium": 768px,
+  "xl-large": 1280px,
+  "max-width": 1400px,
+  "mid-large": 1024px,
+  "extra-large": 1200px,
+
+  // max width
+  "smallest": 319.99px,
+  "large-down": 991.98px,
+  "small-down": 575.98px,
+  "medium-down": 767.98px,
+  "smaller-down": 375.99px,
+  "extra-large-down": 1199.98px
+);

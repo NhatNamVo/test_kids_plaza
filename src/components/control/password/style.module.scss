@@ -1,0 +1,49 @@
+.password_validate {
+    row-gap: 6px;
+    display: flex;
+    flex-direction: column;
+
+    .week_wrapper {
+        width: 100%;
+        display: flex;
+        column-gap: 6px;
+        align-items: center;
+        justify-content: space-between;
+
+        &.red {
+            .week_action {
+                background-color: $red;
+            }
+        }
+
+        &.yellow {
+            .week_action {
+                background-color: $yellow;
+            }
+        }
+
+        &.light_green {
+            .week_action {
+                background-color: $yellow-green;
+            }
+        }
+
+        &.green {
+            .week_action {
+                background-color: $green;
+            }
+        }
+
+        .week_bar {
+            width: 25%;
+            height: 4px;
+            background-color: $gray-border;
+        }
+
+    }
+
+    .password_rule {
+        color: $gray;
+        font-size: 12px;
+    }
+}

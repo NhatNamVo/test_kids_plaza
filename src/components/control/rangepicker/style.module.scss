@@ -1,0 +1,11 @@
+.dateRangeWrapper {
+    width: fit-content;
+    
+    .dateRangePickerSystem {
+        .ant-picker-suffix {
+            svg {
+                font-size: 10px;
+            }
+        }
+    }
+}

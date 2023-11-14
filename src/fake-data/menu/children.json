@@ -1,0 +1,331 @@
+{
+    "1": [
+        {
+            "id": 1,
+            "name": "Mẹ bầu và sau sinh"
+        },
+    
+        {
+            "id": 2,
+            "name": "Sữa và thực phẩm"
+        },
+    
+        {
+            "id": 3,
+            "name": "Bỉm tã và vệ sinh"
+        },
+    
+        {
+            "id": 4,
+            "name": "Đồ sơ sinh"
+        },
+    
+        {
+            "id": 5,
+            "name": "Đồ dùng ăn uống"
+        },
+    
+        {
+            "id": 6,
+            "name": "Thời trang và phụ kiện"
+        }
+    ],
+
+    "2": [
+        {
+            "id": 1,
+            "name": "Mẹ bầu và sau sinh"
+        },
+    
+        {
+            "id": 2,
+            "name": "Sữa và thực phẩm"
+        },
+    
+        {
+            "id": 3,
+            "name": "Bỉm tã và vệ sinh"
+        },
+    
+        {
+            "id": 4,
+            "name": "Đồ sơ sinh"
+        },
+    
+        {
+            "id": 5,
+            "name": "Đồ dùng ăn uống"
+        }
+    ],
+
+    "3": [
+        {
+            "id": 1,
+            "name": "Mẹ bầu và sau sinh"
+        },
+    
+        {
+            "id": 9,
+            "name": "Nôi - Giường - Cũi"
+        },
+    
+        {
+            "id": 10,
+            "name": "Giặt xả và Tắm gội"
+        },
+    
+        {
+            "id": 11,
+            "name": "Đồ dùng gia đình"
+        }
+    ],
+
+    "4": [
+    
+        {
+            "id": 5,
+            "name": "Đồ dùng ăn uống"
+        },
+    
+        {
+            "id": 6,
+            "name": "Thời trang và phụ kiện"
+        },
+    
+        {
+            "id": 7,
+            "name": "Đồ chơi và học tập"
+        },
+    
+        {
+            "id": 8,
+            "name": "Xe - Đai - Điệu"
+        },
+    
+        {
+            "id": 9,
+            "name": "Nôi - Giường - Cũi"
+        },
+    
+        {
+            "id": 10,
+            "name": "Giặt xả và Tắm gội"
+        },
+    
+        {
+            "id": 11,
+            "name": "Đồ dùng gia đình"
+        }
+    ],
+
+    "5": [
+       
+        {
+            "id": 6,
+            "name": "Thời trang và phụ kiện"
+        },
+    
+        {
+            "id": 7,
+            "name": "Đồ chơi và học tập"
+        },
+    
+        {
+            "id": 8,
+            "name": "Xe - Đai - Điệu"
+        },
+    
+        {
+            "id": 9,
+            "name": "Nôi - Giường - Cũi"
+        },
+    
+        {
+            "id": 10,
+            "name": "Giặt xả và Tắm gội"
+        },
+    
+        {
+            "id": 11,
+            "name": "Đồ dùng gia đình"
+        }
+    ],
+
+    "6": [
+    
+        {
+            "id": 4,
+            "name": "Đồ sơ sinh"
+        },
+    
+        {
+            "id": 5,
+            "name": "Đồ dùng ăn uống"
+        },
+    
+        {
+            "id": 6,
+            "name": "Thời trang và phụ kiện"
+        },
+    
+        {
+            "id": 7,
+            "name": "Đồ chơi và học tập"
+        },
+    
+        {
+            "id": 8,
+            "name": "Xe - Đai - Điệu"
+        },
+    
+        {
+            "id": 9,
+            "name": "Nôi - Giường - Cũi"
+        },
+    
+        {
+            "id": 10,
+            "name": "Giặt xả và Tắm gội"
+        },
+    
+        {
+            "id": 11,
+            "name": "Đồ dùng gia đình"
+        }
+    ],
+
+    "7": [
+        
+        {
+            "id": 6,
+            "name": "Thời trang và phụ kiện"
+        },
+    
+        {
+            "id": 7,
+            "name": "Đồ chơi và học tập"
+        },
+    
+        {
+            "id": 8,
+            "name": "Xe - Đai - Điệu"
+        },
+    
+        {
+            "id": 9,
+            "name": "Nôi - Giường - Cũi"
+        },
+    
+        {
+            "id": 10,
+            "name": "Giặt xả và Tắm gội"
+        },
+    
+        {
+            "id": 11,
+            "name": "Đồ dùng gia đình"
+        }
+    ],
+
+    "8": [
+        
+        {
+            "id": 9,
+            "name": "Nôi - Giường - Cũi"
+        },
+    
+        {
+            "id": 10,
+            "name": "Giặt xả và Tắm gội"
+        },
+    
+        {
+            "id": 11,
+            "name": "Đồ dùng gia đình"
+        }
+    ],
+
+    "9": [
+            
+        {
+            "id": 8,
+            "name": "Xe - Đai - Điệu"
+        },
+    
+        {
+            "id": 9,
+            "name": "Nôi - Giường - Cũi"
+        },
+    
+        {
+            "id": 10,
+            "name": "Giặt xả và Tắm gội"
+        },
+    
+        {
+            "id": 11,
+            "name": "Đồ dùng gia đình"
+        }
+    ],
+
+    "10": [
+            
+        {
+            "id": 7,
+            "name": "Đồ chơi và học tập"
+        },
+    
+        {
+            "id": 8,
+            "name": "Xe - Đai - Điệu"
+        },
+    
+        {
+            "id": 9,
+            "name": "Nôi - Giường - Cũi"
+        },
+    
+        {
+            "id": 10,
+            "name": "Giặt xả và Tắm gội"
+        },
+    
+        {
+            "id": 11,
+            "name": "Đồ dùng gia đình"
+        }
+    ],
+
+    "11": [
+    
+        {
+            "id": 6,
+            "name": "Thời trang và phụ kiện"
+        },
+    
+        {
+            "id": 7,
+            "name": "Đồ chơi và học tập"
+        },
+    
+        {
+            "id": 8,
+            "name": "Xe - Đai - Điệu"
+        },
+    
+        {
+            "id": 9,
+            "name": "Nôi - Giường - Cũi"
+        },
+    
+        {
+            "id": 10,
+            "name": "Giặt xả và Tắm gội"
+        },
+    
+        {
+            "id": 11,
+            "name": "Đồ dùng gia đình"
+        }
+    ]
+}

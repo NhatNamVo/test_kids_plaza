@@ -1,0 +1,10 @@
+.container {
+  width: 100%;
+  height: fit-content;
+
+  .container__content {
+    margin: auto;
+    padding: 0 16px;
+    max-width: 1400px;
+  }
+}

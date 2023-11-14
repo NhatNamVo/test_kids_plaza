@@ -1,0 +1,67 @@
+{
+  "env": {
+    "browser": true,
+    "es2021": true
+  },
+  "extends": [
+    "eslint:recommended",
+    "plugin:react/recommended",
+    "plugin:@next/next/recommended",
+    "next/core-web-vitals"
+  ],
+
+  "overrides": [],
+  "parserOptions": {
+    "ecmaFeatures": {
+      "jsx": true
+    },
+    "ecmaVersion": 12,
+    "sourceType": "module"
+  },
+
+  "plugins": ["react", "@next/eslint-plugin-next"],
+  
+  "settings": {
+    "import/resolver": {
+      "alias": {
+        "map": [
+          ["apis", "./src/apis"],
+          ["hocs", "./src/hocs"],
+          ["hooks", "./src/hooks"],
+          ["utils", "./src/utils"],
+          ["pages", "./src/pages"],
+          ["assets", "./src/assets"],
+          ["layout", "./src/layout"],
+          ["routes", "./src/routes"],
+          ["stores", "./src/stores"],
+          ["locales", "./src/locales"],
+          ["modules", "./src/modules"],
+          ["templates", "./src/templates"],
+          ["constants", "./src/constants"],
+          ["components", "./src/components"]
+        ],
+        "extensions": [".js", ".jsx"]
+      }
+    }
+  },
+
+  "rules": {
+    "arrow-body-style": "off",
+    "react/prop-types": "off",
+    "react/display-name": 0,
+    "react/no-children-prop": 0,
+    "react/self-closing-comp": "off",
+    "import/no-unresolved": 2,
+    "react/react-in-jsx-scope": 0,
+    "@next/next/no-img-element": 0,
+    "react/no-unescaped-entities": 0,
+    "import/no-useless-path-segments": 1,
+    "no-useless-escape": "off",
+    "no-unused-vars": [
+      1,
+      {
+        "ignoreRestSiblings": false
+      }
+    ]
+  }
+}

@@ -1,0 +1,28 @@
+.phoneInputWrapper {
+    width: 100%;
+    display: flex;
+    column-gap: 10px;
+    align-items: stretch;
+
+    .selectArea {
+        display: flex;
+        column-gap: 5px;
+        padding: 8px 16px;
+        align-items: center;
+        justify-content: center;
+
+        border-radius: 8px;
+        border: 1px solid $border-form-color;
+
+        &:hover, &:active {
+            border-color: $border-form-active-color;
+        }
+
+        .arrow {
+            svg {
+                font-size: 12px;
+            }
+        }
+
+    }
+}

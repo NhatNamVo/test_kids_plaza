@@ -1,0 +1,54 @@
+.system-button {
+  .system-button__loading {
+    height: fit-content;
+  }
+
+  &.ant-btn {
+    height: 40px;
+    padding: 12px 24px;
+
+    display: flex;
+    column-gap: 5px;
+    align-items: center;
+    justify-content: center;
+    border-radius: 8px;
+
+    &.ant-btn-loading {
+      .system-button__loading {
+        svg {
+          path {
+            fill: $pink;
+            stroke: $pink;
+          }
+        }
+      }
+
+      &:hover {
+        svg {
+          path {
+            fill: $white;
+            stroke: $white;
+          }
+        }
+      }
+
+      cursor: not-allowed;
+    }
+  }
+
+  &.ant-btn-loading {
+    .anticon-loading {
+      display: none;
+    }
+  }
+
+  &.ant-btn-lg {
+    height: 56px;
+    padding: 16px 32px;
+  }
+
+  &.ant-btn-sm {
+    height: 40px;
+    padding: 8px 24px;
+  }
+}

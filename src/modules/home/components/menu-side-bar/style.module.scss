@@ -1,0 +1,65 @@
+.menu {
+    height: 100%;
+    position: relative;
+
+    .header {
+        display: flex;
+        column-gap: 12px;
+        padding: 12px 12px;
+        align-items: center;
+        justify-content: flex-start;
+    }
+
+    .list {
+        padding: 0;
+
+        .item {
+            display: flex;
+            cursor: pointer;
+            align-items: center;
+            padding: 6px 24px 6px 12px;
+            justify-content: space-between;
+
+            transition: all .2s;
+
+            &:hover {
+                background-color: $little-light-pink;
+
+                .item_name {
+                    color: $sky-blue;
+                }
+            }
+
+            .item_name {
+                transition: all .2s;
+            }
+
+            svg {
+                font-size: 12px;
+            }
+
+        }
+    }
+
+    .subMenu {
+        $width: calc(100vw - var(--left) * 2 - var(--right));
+
+        top: 0;
+        width: 0;
+        left: 100%;
+        height: 100%;
+        overflow: hidden;
+        position: absolute;
+
+        border-radius: 6px;
+        background-color: $white;
+
+        transition: width 0.2s;
+
+        &.show {
+            z-index: 20;
+            width: $width;
+            border: 1px solid $supper-light-gray;
+        }
+    }
+}

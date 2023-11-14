@@ -1,0 +1,58 @@
+.breadcrumbs {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+
+  svg {
+    color: $primary-text-color;
+  }
+
+  .overview {
+    color: $gray-system;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 20px; /* 142.857% */
+    cursor: pointer;
+
+    &:hover {
+      color: $pink;
+    }
+  }
+
+  .content {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+
+    &_item {
+      display: flex;
+      align-items: center;
+
+      color: $gray-system;
+      font-size: 14px;
+      font-style: normal;
+      font-weight: 600;
+      line-height: 20px; /* 142.857% */
+      cursor: pointer;
+
+      &:hover {
+        color: $pink;
+      }
+
+      &:last-child {
+        cursor: not-allowed;
+        pointer-events: none;
+        color: $primary-text-color;
+
+        &:hover {
+          color: $primary-text-color;
+        }
+
+        svg {
+          display: none;
+        }
+      }
+    }
+  }
+}

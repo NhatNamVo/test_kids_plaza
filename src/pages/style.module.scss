@@ -1,0 +1,51 @@
+.home {
+    display: flex;
+    column-gap: 12px;
+    position: relative;
+    align-items: stretch;
+
+    .home_section {
+        border-radius: 6px;
+        border: 1px solid $supper-light-gray;
+    }
+
+    .left {
+        flex: 1 0 280px;
+        max-width: 280px;
+    }
+
+    .banner {
+        flex: 2;
+        overflow: hidden;
+    }
+
+    .right {
+        flex: 1 0 300px;
+        max-width: 300px;
+        height: fit-content;
+
+        display: flex;
+        row-gap: 12px;
+        flex-direction: column;
+    }
+
+    .subMenu {
+        top: 0;
+        width: 0;
+        z-index: 20;
+        left: 280px;
+        height: 100%;
+        overflow: hidden;
+        position: absolute;
+        
+        border-radius: 6px;
+        background-color: $white;   
+        
+        transition: width 0.2s;
+
+        &.show {
+            width: calc(100% - 280px);
+            border: 1px solid $supper-light-gray;
+        }
+    }
+}

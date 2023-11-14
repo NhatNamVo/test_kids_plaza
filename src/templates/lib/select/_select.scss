@@ -1,0 +1,19 @@
+.ant-select-dropdown {
+
+    .ant-select-item-empty {
+        .empty-options {
+            font-size: 12px;
+            font-weight: 500;
+            text-align: center;
+
+            color: $dark-gray;
+        }
+    }
+    .ant-empty-normal {
+
+
+        .ant-empty-image, .ant-empty-description {
+            display: none;
+        }
+    }
+}

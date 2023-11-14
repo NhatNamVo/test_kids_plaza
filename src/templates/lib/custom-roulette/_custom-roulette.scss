@@ -1,0 +1,62 @@
+.bhdLno {
+  width: 300px !important;
+  height: 300px !important;
+}
+
+.gTLZXx {
+  display: none;
+}
+
+.button {
+  font-size: larger;
+  border: none;
+  outline: none;
+  background: transparent;
+  color: black;
+  border: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: fit-content;
+  width: fit-content;
+  padding: 5px;
+  cursor: pointer;
+}
+
+.roulette-button {
+  img {
+    color: unset !important;
+  }
+  position: absolute;
+  top: 48%;
+  left: 50%;
+  z-index: +9;
+  transform: translate(-50%, -50%);
+}
+
+.roulette-round {
+  img {
+    object-fit: cover;
+  }
+
+  position: absolute;
+  top: -9%;
+  left: 6%;
+  z-index: 10;
+  transform: rotate(46deg);
+}
+
+.roulette-center {
+  img {
+    object-fit: cover;
+  }
+
+  position: absolute;
+  top: -9%;
+  left: -8%;
+  z-index: 9;
+}
+
+.roulette-container {
+  position: relative;
+}

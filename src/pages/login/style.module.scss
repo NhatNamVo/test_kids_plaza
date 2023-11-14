@@ -1,0 +1,26 @@
+.login {
+    width: 100%;
+
+    row-gap: 32px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+    .form {
+        width: 450px;
+        margin: auto;
+
+        @include maxResponsive(small) {
+            width: 100%;
+        }
+    }
+
+    .login_extend {
+        width: 100%;
+        text-align: center;
+
+        span {
+            padding-right: 4px;
+        }
+    }
+}

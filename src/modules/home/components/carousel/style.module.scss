@@ -1,0 +1,32 @@
+.carousel {
+    position: relative;
+
+    .pre_button,
+    .next_button {
+        top: 50%;
+        z-index: 10;
+        position: absolute;
+        transform: translateY(-50%);
+
+        width: 50px;
+        height: 50px;
+        line-height: 50px;
+        border-radius: 50%;
+        text-align: center;
+        background-color: rgba($color: $supper-light-gray, $alpha: 0.8);
+
+        cursor: pointer;
+
+        &:hover {
+            background-color: rgba($color: $supper-light-gray, $alpha: 1);
+        }
+    }
+
+    .pre_button {
+        left: 10px;
+    }
+
+    .next_button {
+        right: 10px;
+    }
+}

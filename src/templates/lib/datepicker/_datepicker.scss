@@ -1,0 +1,22 @@
+
+.date-range-system {
+    .ant-picker-suffix {
+        svg {
+            font-size: 10px;
+        }
+    }
+
+}
+
+
+.date-range-picker-system {
+    .ant-picker-datetime-panel {
+        .ant-picker-time-panel {
+            display: none;
+        }
+    }
+    
+    // .ant-picker-footer {
+    //     display: none;
+    // }
+}

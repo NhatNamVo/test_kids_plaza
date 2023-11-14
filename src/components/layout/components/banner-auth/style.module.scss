@@ -1,0 +1,98 @@
+.banner {
+    height: 100%;
+    display: flex;
+    row-gap: 120px;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+
+    .banner_logo {
+        animation: show 1s linear 0s 1;
+
+        @keyframes show {
+            0% {
+                opacity: 0;
+                transform-origin: center;
+                transform: scale(0) translateY(120);
+            }
+
+            50% {
+                opacity: 1;
+                transform-origin: center;
+                transform: scale(1) translateY(120);
+            }
+
+            100% {
+                opacity: 1;
+                transform-origin: center;
+                transform: scale(1) translateY(0);
+            }
+        }
+    }
+
+    .banner_image {
+        position: relative;
+
+        .banner_image_main {
+            height: 300px;
+            width: 400px;
+
+            animation: main-show 1s linear 0s 1;
+
+            @keyframes main-show {
+                0% {
+                    opacity: 0;
+                    transform-origin: center;
+                    transform: scale(0);
+                }
+
+                90% {
+                    opacity: 0;
+                    transform-origin: center;
+                    transform: scale(0);
+                }
+
+                100% {
+                    opacity: 1;
+                    transform-origin: center;
+                    transform: scale(1);
+                }
+            }
+        }
+
+        .banner_image_first {
+            top: -50px;
+            left: -10px;
+            z-index: 10;
+            position: absolute;
+
+            .image {
+                width: 180px;
+                height: 140px;
+            }
+
+            animation: sub-show 1.5s linear 0s 1;
+
+            @keyframes sub-show {
+                0% {
+                    opacity: 0;
+                    transform-origin: center;
+                    transform: scale(0);
+                }
+
+                95% {
+                    opacity: 0;
+                    transform-origin: center;
+                    transform: scale(0);
+                }
+
+                100% {
+                    opacity: 1;
+                    transform-origin: center;
+                    transform: scale(1);
+                }
+            }
+        }
+    }
+
+}
