@@ -104,35 +104,6 @@
   }
 }
 
-.lottery-input-number {
-  width: 100% !important;
-  border-radius: 8px;
-
-  .ant-input-number-input {
-    height: 44px;
-    padding: 0px 16px;
-    color: #000;
-
-    @include maxResponsive("small-down") {
-      height: 36px;
-    }
-
-    &::placeholder {
-      color: #93969b;
-    }
-  }
-
-  .ant-input-number-handler-wrap {
-    display: none;
-  }
-
-  &.centered {
-    .ant-input-number-input {
-      text-align: center;
-    }
-  }
-}
-
 .input-number-invest {
   &.ant-input-number {
     border: none;
